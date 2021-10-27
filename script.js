@@ -47,3 +47,5 @@ const todo = {
         localStorage.setItem('todo', document.querySelector('.todo__items').innerHTML)
     }
 };
+
+todo.init();
